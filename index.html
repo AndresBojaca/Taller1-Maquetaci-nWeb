@@ -1,0 +1,94 @@
+<!doctype html>
+<html lang="en">
+
+<head>
+
+    <!-- Required meta tags -->
+    <meta charset="utf-8">
+    <meta name="viewport" content="width=device-width, initial-scale=1, shrink-to-fit=no">
+
+    <!-- Bootstrap CSS -->
+    <link rel="stylesheet" href="https://cdn.jsdelivr.net/npm/bootstrap@4.6.0/dist/css/bootstrap.min.css" integrity="sha384-B0vP5xmATw1+K9KRQjQERJvTumQW0nPEzvF6L/Z6nronJ3oUOFUFpCjEUQouq2+l" crossorigin="anonymous">
+    <!-- Font Awesome -->
+    <script src="https://kit.fontawesome.com/393341ea44.js" crossorigin="anonymous"></script>
+
+    <!-- Custom CSS -->
+    <link rel="stylesheet" href="./css/style.css">
+
+    <title>BIT Bookstore - Andrés Bojacá</title>
+</head>
+
+<body>
+    <!-- Navbar -->
+    <nav class="navbar navbar-expand-md navbar-dark bg-custom">
+        <a class="navbar-brand" href="#">BIT Bookstore</a>
+        <button class="navbar-toggler" type="button" data-toggle="collapse" data-target="#navbarNav">
+                <span class="navbar-toggler-icon"></span>
+            </button>
+        <div class="collapse navbar-collapse" id="navbarNav">
+            <ul class="navbar-nav mr-auto"></ul>
+            <ul class="navbar-nav">
+                <li class="nav-item">
+                    <a class="nav-link" href="{{ url('/login') }}">Inicio</a>
+                </li>
+                <li class="nav-item">
+                    <a class="nav-link" href="{{ url('/register') }}">Iniciar Sesión</a>
+                </li>
+                <li class="nav-item">
+                    <a class="nav-link" href="{{ url('/register') }}">Registrarse</a>
+                </li>
+            </ul>
+        </div>
+    </nav>
+    <!-- Main Container -->
+    <div class="container">
+        <h1 class="my-4 custom-color">Título</h1>
+        <div class="row">
+            <div class="col-sm-12 col-md-12 col-lg-5 mb-2">
+                <div class="image-container">
+                    <img src="https://d1csarkz8obe9u.cloudfront.net/posterpreviews/sci-fi-book-cover-template-a1ec26573b7a71617c38ffc6e356eef9_screen.jpg?ts=1561547637" class="img-fluid" alt="">
+                </div>
+            </div>
+            <div class="col-sm-12 col-md-12 col-lg-7 ">
+                <!-- Description -->
+                <div class="desc-container">
+                    <span class="custom-color">Lorem ipsum dolor, sit amet consectetur adipisicing elit. Harum maiores minima perferendis soluta ipsa ipsum, totam, praesentium libero non ut accusamus eius, error deleniti quidem consectetur exercitationem qui neque magni. Lorem ipsum, dolor sit amet consectetur adipisicing elit. Illo soluta repellat minima sit. Tenetur veniam laudantium, tempore porro, autem nobis recusandae iure ratione harum qui nulla aspernatur incidunt odit facere?</span>
+                </div>
+                <!-- Data -->
+                <div>
+                    <span class="custom-secondary-color font-weight-bold">Valor Unitario $50.000,00</span>
+                    <div id="quantity" class="row mt-4">
+                        <div class="col-3 col-md-2 text-center pt-2 p-0">
+                            <label class="font-weight-bold" for="">Cantidad</label>
+                        </div>
+                        <div class="col-3 col-md-2 p-0">
+                            <input type="number" required class="form-control" value="1" type="text">
+                        </div>
+                    </div>
+                    <hr>
+                    <div class="row">
+                        <div class="col-6 col-md-8">
+                            <h3 class="custom-secondary-color font-weight-bold">Total $50.000,00</h3>
+                        </div>
+                        <div class="col-6 col-md-4">
+                            <button type="button" class="btn btn-custom">Añadir al Carrito <i class="fas fa-cart-plus"></i></button>
+                        </div>
+                    </div>
+                </div>
+
+            </div>
+        </div>
+    </div>
+    <!-- Footer -->
+    <footer class="text-muted">
+        <div class="container">
+            <br>
+        </div>
+    </footer>
+    <!-- Option 1: jQuery and Bootstrap Bundle (includes Popper) -->
+    <script src="https://code.jquery.com/jquery-3.5.1.slim.min.js" integrity="sha384-DfXdz2htPH0lsSSs5nCTpuj/zy4C+OGpamoFVy38MVBnE+IbbVYUew+OrCXaRkfj" crossorigin="anonymous"></script>
+    <script src="https://cdn.jsdelivr.net/npm/bootstrap@4.6.0/dist/js/bootstrap.bundle.min.js" integrity="sha384-Piv4xVNRyMGpqkS2by6br4gNJ7DXjqk09RmUpJ8jgGtD7zP9yug3goQfGII0yAns" crossorigin="anonymous"></script>
+
+</body>
+
+</html>
